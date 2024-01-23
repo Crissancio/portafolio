@@ -1,0 +1,26 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --dark-blue: #0C151D;
+    --dark-blue-smooth: #171F26;
+    --gray: #A3ABB2;
+    --black-mate: #3D3D3D;
+    --yellow: #FFE071;
+}
+.principal-container{
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-blue);
+    padding: 36px 0 36px 0;
+    gap: 36px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.tabs-container{
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,28 @@
+.tabs-buttons-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    width: 756px;
+    height: 116px;
+    justify-content: center;
+    background-color: var(--dark-blue-smooth);
+    color: var(--gray);
+    font-size: var(--md);
+}
+.port-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 349.595px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: var(--dark-blue);
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 349.595px;
+    height: 80px;
+}

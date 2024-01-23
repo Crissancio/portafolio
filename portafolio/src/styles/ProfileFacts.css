@@ -1,0 +1,16 @@
+.facts-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    padding: 20px 2px 20px 2px;
+}
+.facts-container p{
+    font-size: var(--md);
+    color: var(--gray);
+}
+.facts-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

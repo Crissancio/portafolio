@@ -1,0 +1,29 @@
+.buttons-container{
+    display: inline-flex;
+    align-items: center;
+    gap: 38px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--md);
+}
+.cv-button{
+    background-color: var(--yellow);
+    color: var(--black-mate);
+}
+.cv-button img{
+    width: 26.979px;
+    height: 24px;
+}
+.contact-button{
+    color: var(--gray);
+    background-color: var(--dark-blue-smooth);
+}
